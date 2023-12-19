@@ -34,7 +34,7 @@ Este projeto foi usado como TCC para o Tecnólogo em Análise e Desenvolvimento 
 
 [Firebase](https://firebase.google.com/docs)
 
-
+[FlutterFire](https://firebase.flutter.dev/docs/overview/)
 ## Ferramentas necessárias
 
 Editor de código - VSCode, XCode, Android Studio, IntelliJ
@@ -68,7 +68,13 @@ Instale as dependências
   flutter pub get
 ```
 
-#### Ambiente Mac
+Rode o projeto
+
+```bash
+  flutter run
+```
+
+### Ambiente Mac
 
 Para desenvolvimento em MacOS é necessário executar alguns passos:
 
@@ -84,7 +90,13 @@ Atualize e instale as dependências do CocoaPods
   pod update
 ```
 
-Inicie o simulador de acordo com seu sistema
+Após esses comandos, rode uma build do projeto via Xcode.
+
+Feito isso inicie o simulador de acordo com seu sistema, e rode o projeto no VScode usando este comando:
+
+```bash
+  flutter run
+```
 
 
 
