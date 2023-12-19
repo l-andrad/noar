@@ -68,6 +68,14 @@ Instale as dependências
   flutter pub get
 ```
 
+Após instalar todas as dependências, configure o FluterFire CLI e depois rode o seguinte comando:
+
+```bash
+  flutterfire configure
+```
+
+Selecione o banco de dados criado no firebase, desmarque as opções web, macos, windows e linux e deixe apenas ios e android.
+
 Rode o projeto
 
 ```bash
