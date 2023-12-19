@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:app_pm/class/dados_pessoais.dart';
 import 'package:app_pm/class/endereco.dart';
 import 'package:app_pm/pages/login_page.dart';
+import 'package:app_pm/widgets/auth_check.dart';
 import 'package:app_pm/widgets/barra_navegacao.dart';
 import 'package:app_pm/pages/register_page_email_senha.dart';
 import 'package:app_pm/services/notificacao.dart';
@@ -352,7 +353,7 @@ class _RegisterPageEnderecoState extends State<RegisterPageEndereco> {
                                           context,
                                           MaterialPageRoute(
                                               builder: (context) =>
-                                                  const LoginPage()));
+                                                  const AuthCheck()));
                                     },
                                     child: const Row(
                                       mainAxisAlignment: MainAxisAlignment.center,

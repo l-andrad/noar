@@ -4,6 +4,7 @@ import 'package:app_pm/class/dados_pessoais.dart';
 import 'package:app_pm/class/endereco.dart';
 import 'package:app_pm/pages/login_page.dart';
 import 'package:app_pm/services/cadastrar_usuario_service.dart';
+import 'package:app_pm/widgets/auth_check.dart';
 import 'package:app_pm/widgets/barra_navegacao.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
@@ -210,7 +211,7 @@ class _RegisterPageRecuperacaoSenhaState
                                           context,
                                           MaterialPageRoute(
                                               builder: (context) =>
-                                                  const LoginPage()));
+                                                  const AuthCheck()));
                                     },
                                     child: const Row(
                                       mainAxisAlignment: MainAxisAlignment.center,
