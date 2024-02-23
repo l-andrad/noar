@@ -141,3 +141,12 @@ Esta última coleção tem a finalidade de armazenar todas as perguntas do formu
 #### Abaixo segue exemplo de banco de dados
 
 ![database](https://github.com/l-andrad/noar/blob/main/assets/images/modelo-database.png)
+
+
+## Layout das telas
+
+Abaixo iremos colocar prints das telas principais.
+
+### Tela de Login
+
+![Tela de Login](https://github.com/l-andrad/noar/blob/main/assets/images/tela-login.png)
